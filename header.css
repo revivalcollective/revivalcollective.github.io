@@ -12,7 +12,7 @@ a {
 			line-height: unset !important;
         }
     .div {
-       padding-top: 10em !important; 
+       padding-top: calc(40px + 10em) !important; 
     }
         .video {
     top: calc(40px + 19em) !important;
@@ -26,7 +26,7 @@ a {
 			line-height: unset !important;
         }
     .div {
-       padding-top: 10em !important; 
+       padding-top: calc(40px + 10em) !important; 
     }
     
     .video {
