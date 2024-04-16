@@ -1,0 +1,122 @@
+
+.footer {
+        text-shadow: black 1px 0 10px;
+    }
+/*! CSS Used from: https://www.blahblah.co.uk/core/assets/vendor/normalize-css/normalize.css?s95es5 ; media=all */
+@media all{
+nav{display:block;}
+.aaaaa{background-color:transparent;}
+.aaaaa:active,.aaaaa:hover{outline:0;}
+svg:not(:root){overflow:hidden;}
+}
+/*! CSS Used from: https://www.blahblah.co.uk/themes/custom/blahblah/includes/dist/css/main.css?s95es5 ; media=all */
+@media all{
+nav{display:block;}
+.aaaaa{background-color:transparent;-webkit-text-decoration-skip:objects;}
+svg:not(:root){overflow:hidden;}
+.container{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto;}
+.container{max-width:360px;}
+@media (min-width: 439px){
+.container{max-width:500px;}
+}
+@media (min-width: 599px){
+.container{max-width:800px;}
+}
+@media (min-width: 999px){
+.container{max-width:1000px;}
+}
+@media (min-width: 1199px){
+.container{max-width:1200px;}
+}
+.row{display:flex;flex-wrap:wrap;margin-right:-15px;margin-left:-15px;}
+.col-6,.col-10,.col-14,.col-16,.col-md-3,.col-md-5,.col-md-8,.col-lg-3,.col-lg-5{position:relative;width:100%;padding-right:15px;padding-left:15px;}
+.col-6{flex:0 0 37.5%;max-width:37.5%;}
+.col-10{flex:0 0 62.5%;max-width:62.5%;}
+.col-14{flex:0 0 87.5%;max-width:87.5%;}
+.col-16{flex:0 0 100%;max-width:100%;}
+.offset-1{margin-left:6.25%;}
+@media (min-width: 599px){
+.col-md-3{flex:0 0 18.75%;max-width:18.75%;}
+.col-md-5{flex:0 0 31.25%;max-width:31.25%;}
+.col-md-8{flex:0 0 50%;max-width:50%;}
+.offset-md-0{margin-left:0;}
+.offset-md-1{margin-left:6.25%;}
+}
+@media (min-width: 999px){
+.col-lg-3{flex:0 0 18.75%;max-width:18.75%;}
+.col-lg-5{flex:0 0 31.25%;max-width:31.25%;}
+.offset-lg-1{margin-left:6.25%;}
+.offset-lg-6{margin-left:37.5%;}
+}
+.d-flex{display:flex!important;}
+.justify-content-center{justify-content:center!important;}
+.align-items-center{align-items:center!important;}
+@media (min-width: 599px){
+.justify-content-md-start{justify-content:flex-start!important;}
+}
+.pt-3{padding-top:1rem!important;}
+.pb-5{padding-bottom:2rem!important;}
+.text-center{text-align:center!important;}
+*,*:before,*:after{box-sizing:border-box;}
+.container{position:relative;}
+.aaaaa{color:#002B5C;text-decoration:none;}
+ul{padding-left:20px;}
+.icon{fill:currentColor;height:1rem;pointer-events:none;vertical-align:baseline;width:1rem;}
+.navigation-footer__link{font-size:14px;font-size:.875rem;line-height:16px;color:#FFFAF7!important;display:block!important;margin-bottom:10px;}
+.navigation-footer__link span:after{border-bottom:1px solid #FFFAF7!important;}
+.footer{background-color:#000;background-image:url("https://upload.wikimedia.org/wikipedia/commons/0/09/Mowed_fresh_green_seamless_healthy_lawn_grass_turf_texture.jpg");background-size:8%;color:#FFFAF7;}
+@media (max-width: 998.98px){
+.footer{background-size:20%;}
+}
+@media (max-width: 601px){
+.footer{background-size:40%;}
+}
+.footer__logo .aaaaa{display:block;}
+.footer__logo svg{width:100%;height:100%;}
+@media (min-width: 599px){
+.footer__copy{margin-top:80px;}
+}
+.footer__copy,.footer__copy p{font-family:"serif";font-size:20px;font-size:1.25rem;}
+.wf-cormorant-light-active .footer__copy,.wf-cormorant-light-active .footer__copy p{font-family:"cormorant-garamond","serif";font-weight:300;font-variant:common-ligatures discretionary-ligatures contextual;font-feature-settings:"dlig", "calt", "liga", "lnum";}
+@media (max-width: 601px){
+.footer__copy,.footer__copy p{margin:0;}
+}
+.footer__copyright{margin-top:60px;}
+@media (max-width: 601px){
+.footer__copyright{margin-top:20px;}
+}
+.footer__copyright,.footer__copyright p{font-size:12px;font-size:.75rem;line-height:16px;}
+.footer__social p{font-size:14px;font-size:.875rem;margin-bottom:5px;}
+.footer__social-list{margin:0;padding:0;}
+.footer__social-item{list-style:none;}
+@media (min-width: 999px){
+.footer__social-item:not(:last-child){margin-right:10px;}
+}
+.footer__social-link{color:#FFFAF7;padding:10px;border-radius:50%;}
+.footer__social-link:hover,.footer__social-link:focus{background-color:#FFFAF7;color:#202020;}
+.footer__social-link svg{height:1.5em;width:1.5em;}
+.snake{text-decoration:none;position:relative;color:#002B5C;display:block;}
+.snake span{padding:3px 6px 3px 10px;position:relative;display:inline-block;}
+.snake span:before,.snake span:after{content:"";position:absolute;left:0;}
+.snake span:before{border-left:1px solid #002B5C;transition:.4s transform ease;transform-origin:bottom left;top:0;height:100%;}
+.snake span:after{border-bottom:1px solid #002B5C;transform:scaleX(0);transition:.4s transform ease;transform-origin:bottom left;top:100%;width:100%;}
+.snake:focus{outline:none;}
+.snake:hover span:before,.snake:focus span:before{transform:scaleY(0);}
+.snake:hover span:after,.snake:focus span:after{transform:scaleX(1);}
+.snake--4 span{padding:0;}
+.snake--4 span:before{display:none;}
+}
+/*! CSS Used fontfaces */
+@font-face{font-family:"cormorant-garamond";src:url("https://use.typekit.net/af/513da6/00000000000000003b9b2910/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff2"),url("https://use.typekit.net/af/513da6/00000000000000003b9b2910/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff"),url("https://use.typekit.net/af/513da6/00000000000000003b9b2910/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("opentype");font-display:auto;font-style:normal;font-weight:300;font-stretch:normal;}
+@font-face{font-family:"cormorant-garamond";src:url("https://use.typekit.net/af/82138e/00000000000000003b9b2911/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3") format("woff2"),url("https://use.typekit.net/af/82138e/00000000000000003b9b2911/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3") format("woff"),url("https://use.typekit.net/af/82138e/00000000000000003b9b2911/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3") format("opentype");font-display:auto;font-style:italic;font-weight:300;font-stretch:normal;}
+@font-face{font-family:"cormorant-garamond";src:url("https://use.typekit.net/af/eb1aae/00000000000000003b9b2912/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/eb1aae/00000000000000003b9b2912/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/eb1aae/00000000000000003b9b2912/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;}
+@font-face{font-family:"cormorant-garamond";src:url("https://use.typekit.net/af/fa255f/00000000000000003b9b2913/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"),url("https://use.typekit.net/af/fa255f/00000000000000003b9b2913/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"),url("https://use.typekit.net/af/fa255f/00000000000000003b9b2913/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");font-display:auto;font-style:italic;font-weight:400;font-stretch:normal;}
+@font-face{font-family:"cormorant-garamond";src:url("https://use.typekit.net/af/9fe3a2/00000000000000003b9b2914/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff2"),url("https://use.typekit.net/af/9fe3a2/00000000000000003b9b2914/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff"),url("https://use.typekit.net/af/9fe3a2/00000000000000003b9b2914/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("opentype");font-display:auto;font-style:normal;font-weight:500;font-stretch:normal;}
+@font-face{font-family:"cormorant-garamond";src:url("https://use.typekit.net/af/715c5b/00000000000000003b9b2915/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i5&v=3") format("woff2"),url("https://use.typekit.net/af/715c5b/00000000000000003b9b2915/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i5&v=3") format("woff"),url("https://use.typekit.net/af/715c5b/00000000000000003b9b2915/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i5&v=3") format("opentype");font-display:auto;font-style:italic;font-weight:500;font-stretch:normal;
+    }
+
+    
+    body, html {margin:0;
+    height:fit-content;
+width:100% !important;
+}
