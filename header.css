@@ -4,21 +4,8 @@ a {
     white-space: nowrap;
 }
 
-@media (max-width: 981px) {        
-        .dashed {
-                        			margin-left: unset !important;
-                        			transform: unset !important;
-            			font-size: unset !important;
-			line-height: unset !important;
-        }
-    .div {
-       padding-top: calc(40px + 10em) !important; 
-    }
-        .video {
-    top: calc(40px + 19em) !important;
-    }
-}
-@media (max-width: 793px) {        
+
+@media (max-width: 432px) {        
         .dashed {
                         			margin-left: unset !important;
                         			transform: unset !important;
