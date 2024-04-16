@@ -21,6 +21,21 @@ a {
     }
 }
 
+@media (max-width: 513px) {        
+        .dashed {
+                        			margin-left: unset !important;
+                        			transform: unset !important;
+            			font-size: unset !important;
+			line-height: unset !important;
+        }
+    .div {
+       padding-top: calc(40px + 3.3em) !important; 
+    }
+    
+    .video {
+    top: calc(40px + 19em) !important;
+    }
+}
 
 body {
             margin:0;
