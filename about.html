@@ -1,87 +1,188 @@
-<head><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
     
-              <title>Design</title>
+      <title>About Us</title>
 
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon_package_v0.16/apple-touch-icon.png">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon_package_v0.16/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon_package_v0.16/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="favicon_package_v0.16/favicon-16x16.png">
 <link rel="manifest" href="favicon_package_v0.16/site.webmanifest">
 <link rel="mask-icon" href="favicon_package_v0.16/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
-    
+                  <link rel="stylesheet" href="https://use.typekit.net/qow0nhv.css">
+
     <link rel="stylesheet" type="text/css" href="header.css">
-    
-<style>
-    
-    * {
+
+    <style>
+        
+        #myBtn {
+            color: transparent;
+    -webkit-text-stroke: 1px darkorange;
+            font-family: "Poppins", sans-serif;
+    font-size: 50px;
+        }
+        
+                #myBtn:hover {
+            color: transparent;
+    -webkit-text-stroke: 1px black;
+            font-family: "Poppins", sans-serif;
+    font-size: 60px;
+        }
+        #myBtn::after {
+    content: "\2191";
+    margin-left: 20px;
+}
+        html {
+  scroll-behavior: smooth;
+}
+        .teamphotoholder h3 {
+            color: darkorange;
+        }
+                .namerolesetc:hover h3 {
+            color: black;
+        }
+                .teamphotoholder p, .teamphotoholder a {
+            color: black;
+        }
+        .teamphotos:hover {
+    filter: drop-shadow(4px 5px 10px #000000) sepia(100%) hue-rotate(160deg);
+height:calc(178px + 30px);
+}
+                .namerolesetc h3::after {
+                        content: "\A_________";
+                    white-space: pre;
+        }
+        .namerolesetc {
+            font-family: "franklin-gothic-urw", "serif";
+            border-style: solid;
+    margin: 0;
+            padding-left: 50px !important;
+            width: 254px;
+            padding: 10px;
+    border-color: orange;
+        border-width: 5px;
+        transform: translate(108px,-222.5px);
+        }
+        
+                .namerolesetc:hover {
+            border-style: solid;
+    margin: 0;
+            width: 254px;
+            padding: 25px;
+                                padding-right: 10px;
+
+    border-color: orange;
+        border-width: 5px;
+        transform: translate(108px,-222.5px);
+                    background: orange;
+                    color: black;
+        }
+        
+        .teamphotos {
+            
+            height: 178px;
+        }
+        .teamphotoholder {
+            padding-left: 127px;
+
+            width:fit-content;
+            display:inline-block;
+        }
+.orangeblack {
+	color: black;
+	background-color: orange;
+
+	padding: 2em;
+	width: 50vw;
+	z-index: 2;
+	right: 10vw;
+	transform: translate(0, -50%);
+	position: absolute;
+	width: 45vw;
+}
+
+.coverimage {
+	width: 50vw;
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row-start: 1;
+	z-index: 2;
+
+}
+
+.orangeblack:hover {
+	color: orange;
+	background-color: black
+}
+
+* {
 	transition: all 0.5s;
-	color:lightyellow;
 }
-  div#carousel { 
-  perspective: 1200px; 
-  background: #100000; 
-  padding-top: 10%; 
-  font-size:0; 
-  padding-bottom: 4em; 
-  overflow: hidden; 
-}
-figure#spinner { 
-  transform-style: preserve-3d; 
-  height: 500px; 
-  transform-origin: 50% 50% -500px; 
-  transition: 1s; 
-} 
-    
-    
-figure#spinner img, figure#spinner video{ 
-  width: 40%; max-width: 425px; 
-  position: absolute; left: 30%;
-  transform-origin: 50% 50% -500px;
-  outline:1px solid transparent; 
-}
-    
-    @media (max-width: 601px) {     
-        
-        figure#spinner { 
 
-  height: 400px; 
-
-} 
-        
-        
-figure#spinner img, figure#spinner video{ 
-  width: 100%; max-width: 425px; 
-  position: absolute; left: 0%;
-  transform-origin: 50% 50% -500px;
-  outline:1px solid transparent; 
-        }}
-figure#spinner img:nth-child(1) { transform:rotateY(0deg); 
-}
-figure#spinner img:nth-child(2) { transform: rotateY(-45deg); }
-figure#spinner img:nth-child(3) { transform: rotateY(-90deg); }
-figure#spinner img:nth-child(4) { transform: rotateY(-135deg); }
-figure#spinner img:nth-child(5){ transform: rotateY(-180deg); }
-figure#spinner img:nth-child(6){ transform: rotateY(-225deg); }
-figure#spinner img:nth-child(7){ transform: rotateY(-270deg); }
-figure#spinner img:nth-child(8){ transform: rotateY(-315deg); }
-div#carousel ~ span { 
-  color: #fff; 
-  margin: 5%; 
-  display: inline-block; 
-  text-decoration: none; 
-  font-size: 2rem; 
-  transition: 0.6s color; 
-  position: relative; 
-  margin-top: -6rem; 
-  border-bottom: none; 
-  line-height: 0; }
-div#carousel ~ span:hover { color: #888; cursor: pointer; }
 html {
-	cursor: cell;
-    background-color: midnightblue;
+	background-color: antiquewhite;
+	background-image: url("source images/1000_F_541863571_uUsJX0PXBhKBGdX5xsImPWLRr9EDq6LA.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 }
-    
+
+img {
+	filter: saturate(0);
+}
+
+img:hover {
+	filter: saturate(1);
+}
+
+@media (max-width: 601px) {
+	
+
+
+	iframe {
+		height: 95vw !important;
+	}
+}
+
+        
+        @media (max-width: 810px) {
+            .aaaaaaaorangeblack {
+		display: none;
+
+	}
+.teamphotoholder {
+    padding-left: 0px;
+            padding-right:127px}
+	.orangeblack {
+
+		transform: translate(0, 0);
+		position: inherit;
+		color: black;
+		background-color: orange;
+
+		padding: 2em;
+		margin-top: 10%;
+		width: 70vw;
+                margin-left: 20vw;
+	}
+
+	.coverimage {
+		width: 80vw;
+		grid-column-start: 1;
+		grid-column-end: 5;
+		grid-row-start: 1;
+		z-index: 2;
+
+	}
+            
+        }
+iframe {
+	margin-left: 10vw;
+	width: 80vw;
+	height: 65vw;
+}
     </style>
 </head>
 <div style="padding-top:1em;width:100vw;height:10vh;text-align: center;">
@@ -102,31 +203,96 @@ html {
 </div>
 
 </div>
-<div class="div"style="padding-bottom: 0em;background-color: black;">
- <base href="">
-<div id="carousel">
-  <figure id="spinner">
-              <video src="https://www.dropbox.com/scl/fi/t1od5xszzn8oei6502yf0/exhibition-render-2.mp4?rlkey=kq4ahv11uz94deqapxsuo0a0h&dl=0&raw=1" playsinline muted="" autoplay="" loop=""></video>
+<div class="div">
+    <div style="width:90vw;padding-left: 10vw;">
+<img class="coverimage" src="source images/WhatsApp Image 2024-05-02 at 23.16.32.jpeg" style="
+">    
+        <div class="orangeblack" style="
+">
+    <h1>About Us</h1>
+    <p style="    font-family: Arial;">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt mi in dapibus laoreet. Integer ut dictum nunc. Vestibulum rutrum sed felis ac congue. Nam tempor interdum lectus, a tristique metus varius a. Nunc sodales nulla vitae nibh rhoncus, tincidunt ultricies est congue. Pellentesque pharetra lacinia nulla, eget imperdiet elit elementum et. Curabitur ullamcorper lacus commodo turpis elementum, sit amet blandit dui vulputate. Etiam sed mauris porttitor, sagittis enim vel, posuere nunc. Aenean pellentesque iaculis eros non tempus. Fusce viverra lectus mi, a rhoncus arcu scelerisque in.
 
-    <img src="source%20images/interior/1.png" alt>
-    <img src="source%20images/interior/2.png" alt>
-    <img src="source%20images/interior/3.png" alt>
-    <img src="source%20images/interior/4.png" alt>
 
-    <img src="source%20images/interior/Annotation 2024-04-08 131049.png" alt>
-    <img src="source%20images/interior/Annotation 2024-04-08 131129.png" alt>
-  </figure>
-</div>
-<span style="float:left" class="ss-icon" onclick="galleryspin('-')">&lt;</span>
-<span style="float:right" class="ss-icon" onclick="galleryspin('')">&gt;</span>
-</div>
+            </p>
+    </div>
+        </div>
+        <div class="orangeblack aaaaaaaorangeblack" style="opacity:0;position: inherit;transform: translate(0, 0);">
+    <h1>About Us</h1>
+    <p style="    font-family: Arial;">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt mi in dapibus laoreet. Integer ut dictum nunc. Vestibulum rutrum sed felis ac congue. Nam tempor interdum lectus, a tristique metus varius a. Nunc sodales nulla vitae nibh rhoncus, tincidunt ultricies est congue. Pellentesque pharetra lacinia nulla, eget imperdiet elit elementum et. Curabitur ullamcorper lacus commodo turpis elementum, sit amet blandit dui vulputate. Etiam sed mauris porttitor, sagittis enim vel, posuere nunc. Aenean pellentesque iaculis eros non tempus. Fusce viverra lectus mi, a rhoncus arcu scelerisque in.
+
+
+            </p>
+    </div>
+
+    <div>
+    <div class='teamphotoholder'><image class="teamphotos" src="source images/Team Photos/Alyssa.JPG"></image><div class="namerolesetc">
+<h3>Alyssa Lazatin</h3><p>Design, Research</p><a href="mailto:@myport.ac.uk">@myport.ac.uk</a>
+        </div></div>
+<div class='teamphotoholder'><image class="teamphotos" src="source images/Team Photos/Amber.JPG"></image><div class="namerolesetc">
+<h3>Amber Say</h3><p>Director</p><a href="mailto:@myport.ac.uk">@myport.ac.uk</a>
+        </div></div>
+<div class='teamphotoholder'><image class="teamphotos" src="source images/Team Photos/Charlie.JPG"></image><div class="namerolesetc">
+<h3>Charlie McManus</h3><p>Design</p><a href="mailto:@myport.ac.uk">@myport.ac.uk</a>
+        </div></div>
+<div class='teamphotoholder'><image class="teamphotos" src="source images/Team Photos/Daniel.JPG"></image><div class="namerolesetc">
+<h3>Daniel Atagbuzia</h3><p>Construction & Tech, Finance & Legal</p><a href="mailto:@myport.ac.uk">@myport.ac.uk</a>
+        </div></div>
+<div class='teamphotoholder'><image class="teamphotos" src="source images/Team Photos/David.JPG"></image><div class="namerolesetc">
+<h3>David</h3><p>Media & Marketing (graphics)</p><a href="mailto:@myport.ac.uk">@myport.ac.uk</a>
+        </div></div>
+<div class='teamphotoholder'><image class="teamphotos" src="source images/Team Photos/Deon.JPG"></image><div class="namerolesetc">
+<h3>Deon Mascarenhas</h3><p>Construction & Tech, Design</p><a href="mailto:up969585@myport.ac.uk">up969585@myport.ac.uk</a>
+        </div></div>
+<div class='teamphotoholder'><image class="teamphotos" src="source images/Team Photos/Dolce.JPG"></image><div class="namerolesetc">
+<h3>Dolce Goldring</h3><p>Research</p><a href="mailto:@myport.ac.uk">@myport.ac.uk</a>
+        </div></div>
+<div class='teamphotoholder'><image class="teamphotos" src="source images/Team Photos/Harry.JPG"></image><div class="namerolesetc">
+<h3>Harry</h3><p>Construction & Tech</p><a href="mailto:@myport.ac.uk">@myport.ac.uk</a>
+        </div></div>
+<div class='teamphotoholder'><image class="teamphotos" src="source images/Team Photos/Hermione.JPG"></image><div class="namerolesetc">
+<h3>Hermione Redcliffe</h3><p>Construction & Tech, Design, Media & Marketing (graphics & video editing)</p><a href="mailto:up2063436@myport.ac.uk">up2063436@myport.ac.uk</a>
+        </div></div>
+        <div class='teamphotoholder'><image class="teamphotos" src="source images/Team Photos/Lulia.JPG"></image><div class="namerolesetc">
+<h3>Iulia Buturuga</h3><p>Research</p><a href="mailto:@myport.ac.uk">@myport.ac.uk</a>
+        </div></div>
+<div class='teamphotoholder'><image class="teamphotos" src="source images/Team Photos/Keziah.JPG"></image><div class="namerolesetc">
+<h3>Keziah Antwi-Bawuah</h3><p>Construction & Tech, Finance & Legal</p><a href="mailto:@myport.ac.uk">@myport.ac.uk</a>
+        </div></div>
+
+<div class='teamphotoholder'><image class="teamphotos" src="source images/Team Photos/Marcia.JPG"></image><div class="namerolesetc">
+<h3>Marcia Moraise</h3><p>Design, Director</p><a href="mailto:@myport.ac.uk">@myport.ac.uk</a>
+        </div></div>
+<div class='teamphotoholder'><image class="teamphotos" src="source images/Team Photos/Maureen.JPG"></image><div class="namerolesetc">
+<h3>Maureen Omomia</h3><p>Media & Marketing (social media & vlogging)</p><a href="mailto:up2067586@myport.ac.uk">up2067586@myport.ac.uk</a>
+        </div></div>
+<div class='teamphotoholder'><image class="teamphotos" src="source images/Team Photos/Sam.JPG"></image><div class="namerolesetc">
+<h3>Samuel Barker</h3><p>Design, Director</p><a href="mailto:@myport.ac.uk">@myport.ac.uk</a>
+        </div></div>
+<div class='teamphotoholder'><image class="teamphotos" src="source images/Team Photos/Sylvie.JPG"></image><div class="namerolesetc">
+<h3>Sylvie Olivier-Clarke</h3><p>Design, Director</p><a href="mailto:@myport.ac.uk">@myport.ac.uk</a>
+        </div></div>
+<div class='teamphotoholder'><image class="teamphotos" src="source images/Team Photos/Wing.JPG"></image><div class="namerolesetc">
+<h3>Wing Tam</h3><p>Finance & Legal, Media & Marketing (website)</p><a href="mailto:up2014115@myport.ac.uk">up2014115@myport.ac.uk</a>
+        </div></div>
+    </div>
+    
+    
+    <h1 onclick="topFunction()" id="myBtn" title="Go to top" style="text-align: center;width:90vw;;margin-left:5vw;transform: translate(0,-100px)" >Back to Top</h1>
 <script>
- var angle = 0;
-function galleryspin(sign) { 
-spinner = document.querySelector("#spinner");
-if (!sign) { angle = angle + 45; } else { angle = angle - 45; }
-spinner.setAttribute("style","-webkit-transform: rotateY("+ angle +"deg); -moz-transform: rotateY("+ angle +"deg); transform: rotateY("+ angle +"deg);");
-}</script>
+// Get the button
+let mybutton = document.getElementById("myBtn");
+
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+    
+</div>
 
 <link rel="stylesheet" type="text/css" href="footer.css">
 

@@ -1,8 +1,10 @@
-<head><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
     
-              <title>Design</title>
+      <title>About Us</title>
 
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon_package_v0.16/apple-touch-icon.png">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon_package_v0.16/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon_package_v0.16/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="favicon_package_v0.16/favicon-16x16.png">
 <link rel="manifest" href="favicon_package_v0.16/site.webmanifest">
@@ -11,77 +13,84 @@
 <meta name="theme-color" content="#ffffff">
     
     <link rel="stylesheet" type="text/css" href="header.css">
-    
-<style>
-    
-    * {
-	transition: all 0.5s;
-	color:lightyellow;
-}
-  div#carousel { 
-  perspective: 1200px; 
-  background: #100000; 
-  padding-top: 10%; 
-  font-size:0; 
-  padding-bottom: 4em; 
-  overflow: hidden; 
-}
-figure#spinner { 
-  transform-style: preserve-3d; 
-  height: 500px; 
-  transform-origin: 50% 50% -500px; 
-  transition: 1s; 
-} 
-    
-    
-figure#spinner img, figure#spinner video{ 
-  width: 40%; max-width: 425px; 
-  position: absolute; left: 30%;
-  transform-origin: 50% 50% -500px;
-  outline:1px solid transparent; 
-}
-    
-    @media (max-width: 601px) {     
-        
-        figure#spinner { 
 
-  height: 400px; 
-
-} 
+    <style>
         
+        .orangeblack {
+            color:black;
+        background-color: orange;
+            
+            padding:2em;margin-top: 40%;width:50vw;z-index:2;  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  background-image: url('./src/example-image.png');
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+        }
         
-figure#spinner img, figure#spinner video{ 
-  width: 100%; max-width: 425px; 
-  position: absolute; left: 0%;
-  transform-origin: 50% 50% -500px;
-  outline:1px solid transparent; 
-        }}
-figure#spinner img:nth-child(1) { transform:rotateY(0deg); 
+        .coverimage{
+            width:50vw;  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  z-index: 2;
+            
+        }
+                .orangeblack:hover {
+                    color:orange;
+        background-color: black}
+        * {
+    transition: all 0.5s;
 }
-figure#spinner img:nth-child(2) { transform: rotateY(-45deg); }
-figure#spinner img:nth-child(3) { transform: rotateY(-90deg); }
-figure#spinner img:nth-child(4) { transform: rotateY(-135deg); }
-figure#spinner img:nth-child(5){ transform: rotateY(-180deg); }
-figure#spinner img:nth-child(6){ transform: rotateY(-225deg); }
-figure#spinner img:nth-child(7){ transform: rotateY(-270deg); }
-figure#spinner img:nth-child(8){ transform: rotateY(-315deg); }
-div#carousel ~ span { 
-  color: #fff; 
-  margin: 5%; 
-  display: inline-block; 
-  text-decoration: none; 
-  font-size: 2rem; 
-  transition: 0.6s color; 
-  position: relative; 
-  margin-top: -6rem; 
-  border-bottom: none; 
-  line-height: 0; }
-div#carousel ~ span:hover { color: #888; cursor: pointer; }
 html {
-	cursor: cell;
-    background-color: midnightblue;
+                        background-color: antiquewhite;
+            background-image: url("source images/1000_F_541863571_uUsJX0PXBhKBGdX5xsImPWLRr9EDq6LA.jpg");
+              background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+        }
+        
+                img {
+            filter: saturate(0);
+        }
+        
+                        img:hover {
+            filter: saturate(1);
+        }
+            @media (max-width: 601px) {
+                
+                        .orangeblack {
+            color:black;
+        background-color: orange;
+            
+            padding:2em;margin-top: 10%;width:70vw;z-index:2;  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  background-image: url('./src/example-image.png');
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+        }
+        
+        .coverimage{
+            width:80vw;  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  z-index: 2;
+            
+        }
+                
+                
+iframe {
+            height: 95vw !important;
+        }
 }
-    
+        
+        iframe {
+            margin-left: 10vw;
+            width:80vw;
+            height: 65vw;
+        }
     </style>
 </head>
 <div style="padding-top:1em;width:100vw;height:10vh;text-align: center;">
@@ -102,32 +111,21 @@ html {
 </div>
 
 </div>
-<div class="div"style="padding-bottom: 0em;background-color: black;">
- <base href="">
-<div id="carousel">
-  <figure id="spinner">
-              <video src="https://www.dropbox.com/scl/fi/t1od5xszzn8oei6502yf0/exhibition-render-2.mp4?rlkey=kq4ahv11uz94deqapxsuo0a0h&dl=0&raw=1" playsinline muted="" autoplay="" loop=""></video>
-
-    <img src="source%20images/interior/1.png" alt>
-    <img src="source%20images/interior/2.png" alt>
-    <img src="source%20images/interior/3.png" alt>
-    <img src="source%20images/interior/4.png" alt>
-
-    <img src="source%20images/interior/Annotation 2024-04-08 131049.png" alt>
-    <img src="source%20images/interior/Annotation 2024-04-08 131129.png" alt>
-  </figure>
+<div class="div">
+    <div class="container" style="
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  grid-template-rows: 1fr;
+">
+<img class="coverimage" src="source images/WhatsApp Image 2024-05-02 at 23.16.32.jpeg" style="
+">    
+        <div class="orangeblack" style="
+">
+    <h1>About Us</h1>
+    <p style="    font-family: Arial;">placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text </p>
+    </div>
+        </div>
 </div>
-<span style="float:left" class="ss-icon" onclick="galleryspin('-')">&lt;</span>
-<span style="float:right" class="ss-icon" onclick="galleryspin('')">&gt;</span>
-</div>
-<script>
- var angle = 0;
-function galleryspin(sign) { 
-spinner = document.querySelector("#spinner");
-if (!sign) { angle = angle + 45; } else { angle = angle - 45; }
-spinner.setAttribute("style","-webkit-transform: rotateY("+ angle +"deg); -moz-transform: rotateY("+ angle +"deg); transform: rotateY("+ angle +"deg);");
-}</script>
-
 <link rel="stylesheet" type="text/css" href="footer.css">
 
 
