@@ -12,7 +12,7 @@ a {
             padding-left: 8px;
         }
         .space-y-1 span:hover      {
-            color: orange;
+            color: #ff6900;
             text-decoration: underline;
         } 
   .space-y-1 span      {
@@ -165,7 +165,7 @@ body {
     
     .awejfiwejfw:hover {
             color:black;
-            background-color:darkorange;
+            background-color:#ff6900;
             border-top:20px;
             line-height: 3rem;
             padding:0.5rem;
