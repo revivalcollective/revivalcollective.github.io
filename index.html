@@ -15,6 +15,8 @@
     <link rel="stylesheet" type="text/css" href="header.css">
 
     <style>
+        
+
         html {
                         background-color: antiquewhite;
             background-image: url("source images/1000_F_541863571_uUsJX0PXBhKBGdX5xsImPWLRr9EDq6LA.jpg");
@@ -25,10 +27,9 @@
             .body {margin:0;}
  .video {
 	width: 100%;
-	position: absolute;
 	left: 0;
-	top: calc(40px + 9em);
-	opacity: 0.5;
+	top: calc(0);
+	opacity: 1;
 	border-width: 50px;
 	border-top-style: none;
      	border-bottom-style: dotted;
@@ -38,9 +39,8 @@ margin:0;
 .div {
     height: fit-content ! Important;
 	cursor: cell;
-	background-color:darksalmon;
         display: flow-root;
-    padding-bottom: 10em;
+    padding-bottom: 0em;
 }
     
     @media (max-width: 432px) {        
@@ -156,53 +156,213 @@ z-index:-1;
     width:25vw;
 }
 
+        
+        
+        
 
+
+#container {
+    font-size: 18px;
+    font-weight 400;
+    width: 100%;
+    height: 2.5rem;
+    font-family: Helvetica;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    background: orange;
+    color: #fff;
+    border-bottom-color: rgb(0, 0, 0);
+border-bottom-style: solid;
+border-bottom-width: 1px;
+}
+#container .scroll {
+    background: orange;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: fit-content;
+    white-space: nowrap;
+    animation: loop 30s linear infinite;
+}
+.fade {
+    width: 100%;
+    position: absolute;
+
+    inset: 0;
+    pointer-event: none;
+}
+@keyframes loop {
+    0% {transform: translateX(100%);}
+    100% {transform: translateX(-100%);}
+}
+.item {
+    display: flex;
+    align-items: center;
+    gap: 0 0.2rem;
+    color: black;
+    font-size: .9rem;
+    background-color: unset;
+    padding: 0.7rem 1rem;
+    margin: 0rem 1rem;
+    border-radius: 0.4rem;
+    white-space: nowrap;
+
+}
+#container .scroll#scroll-two {
+    transform: translateX(100%);
+    animation-delay: 15s; 
+}
+        .hovermeeeeee {
+            color: black;
+        }
+                .hovermeeeeee:hover {
+                    color: orange;}
         
     </style>
 </head>
-<div style="padding-top:1em;width:100vw;height:10vh;text-align: center;">
-<image style="height: 100%;" src="unnamed.png"></image>
-    <div class="dashed" style="margin-left:5rem;width:fit-content;animation: 1s ease-out 0s 1 slideInFromTop;display:inline-block;transform: translate(0,-40%)">
+<div style="height:100px;padding-top:10px;width:100%;text-align: center;border-bottom-color: rgb(0, 0, 0);border-bottom-style: solid;border-bottom-width: 1px;position: sticky;top:0;background-image: url('source images/1000_F_541863571_uUsJX0PXBhKBGdX5xsImPWLRr9EDq6LA.jpg');    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;z-index: 9999;"><a href="index.html"><image style="height: 100%;padding-left: 47px" src="unnamed.png"></image></a></div>
 
-    <a class="awejfiwejfw" href="index.html">Home</a>    <a class="awejfiwejfw" href="about.html">About Us</a>
-        <a class="awejfiwejfw" href="construction.html">Construction & Tech</a>
 
-        <a class="awejfiwejfw" href="design.html">Design</a>
 
-<a class="awejfiwejfw" href="instagram.html">Feed</a>
-                <a class="awejfiwejfw" href="film.html">Film</a>
-<a class="awejfiwejfw" href="finance.html">Finance</a>
+    <div style="border-bottom-color: rgb(0, 0, 0);border-bottom-style: solid;border-bottom-width: 1px;overflow:auto;"id="shopify-section-template--22147865641278__featured-navigation" class="shopify-section"><section class="featured-navigation border-b-gridline border-gridline-color bg-scheme-background text-scheme-text" x-data="{ currentLink: '' }" data-color-scheme="scheme1">
+  <div class="px-section-horizontal-spacing py-section-vertical-spacing">
+    <nav role="navigation" class="text-scale-n4 lg:text-scale-n9 text-center w-full" aria-label="NAV">
+      <ul class="space-y-1">
+        <li class="inline">
+            <a href="about.html" class="font-heading break-word relative hover:text-scheme-accent" x-on:mouseenter="currentLink = 'about'" x-on:mouseleave="currentLink = ''" x-on:focus="currentLink = 'about'" x-on:blur="currentLink = ''">
+              <span class="hover:underline">ABOUT</span>
+            </a><span class="">•</span></li>
 
-<a class="awejfiwejfw" href="research.html">Precedents</a>
-<a class="awejfiwejfw" href="contact.html">Enquiries</a>
+        <li class="inline">
+            <a href="design.html" class="font-heading break-word relative hover:text-scheme-accent" x-on:mouseenter="currentLink = 'the-membership'" x-on:mouseleave="currentLink = ''" x-on:focus="currentLink = 'the-membership'" x-on:blur="currentLink = ''">
+              <span class="hover:underline">DESIGN</span>
+            </a><span class="">•</span></li>
+        <li class="inline">
+            <a href="instagram.html" class="font-heading break-word relative hover:text-scheme-accent" x-on:mouseenter="currentLink = 'the-leagues'" x-on:mouseleave="currentLink = ''" x-on:focus="currentLink = 'the-leagues'" x-on:blur="currentLink = ''">
+              <span class="hover:underline">FEED</span>
+            </a><span class="">•</span></li>
+                  <li class="inline">
+            <a href="film.html" class="font-heading break-word relative hover:text-scheme-accent" x-on:mouseenter="currentLink = 'the-leagues'" x-on:mouseleave="currentLink = ''" x-on:focus="currentLink = 'the-leagues'" x-on:blur="currentLink = ''">
+              <span class="hover:underline">FILM</span>
+            </a><span class="">•</span></li>
+                  <li class="inline">
+            <a href="finance.html" class="font-heading break-word relative hover:text-scheme-accent" x-on:mouseenter="currentLink = 'the-leagues'" x-on:mouseleave="currentLink = ''" x-on:focus="currentLink = 'the-leagues'" x-on:blur="currentLink = ''">
+              <span class="hover:underline">FINANCE</span>
+            </a><span class="">•</span></li>
+                  <li class="inline">
+            <a href="research.html" class="font-heading break-word relative hover:text-scheme-accent" x-on:mouseenter="currentLink = 'the-leagues'" x-on:mouseleave="currentLink = ''" x-on:focus="currentLink = 'the-leagues'" x-on:blur="currentLink = ''">
+              <span class="hover:underline">PRECEDENTS</span>
+            </a><span class="">•</span></li>
+                    <li class="inline">
+            <a href="construction.html" class="font-heading break-word relative hover:text-scheme-accent" x-on:mouseenter="currentLink = 'book-now'" x-on:mouseleave="currentLink = ''" x-on:focus="currentLink = 'book-now'" x-on:blur="currentLink = ''">
+              <span class="hover:underline">TECH</span>
+            </a><span class="">•</span></li>
+        <li class="inline">
+            <a href="contact.html" class="font-heading break-word relative hover:text-scheme-accent" x-on:mouseenter="currentLink = 'shop-the-supply'" x-on:mouseleave="currentLink = ''" x-on:focus="currentLink = 'shop-the-supply'" x-on:blur="currentLink = ''">
+              <span class="hover:underline">ENQUIRIES</span>
+            </a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</section>
+
+
+<style> #shopify-section-template--22147865641278__featured-navigation .text-heading-standard font-heading {display: none;} </style></div>
+    <div id="shopify-section-template--22147865641278__scrolling-text" class="shopify-section">
+
+<section class="border-b-gridline border-gridline-color bg-scheme-background text-scheme-text" data-color-scheme="scheme2">
+  
+<div>
+
+<div id='container' style="width: 100vw">
+    <div style="width: 100vw" class='scroll' id='scroll-one'>
+        <div class='item'>WELLBEING&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•</div>
+        <div class='item'>CULTURAL IDENTITY&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•</div>
+        <div class='item'>HOLISTIC&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•</div>
+        <div class='item'>COMMUNITY&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•</div>
+        <div class='item'>REGENERATION&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•</div>
+        <div class='item'>EMPOWERMENT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•</div>
+    </div>
+    <div class='scroll' id='scroll-two'style="width: 100vw">
+                <div class='item'>WELLBEING&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•</div>
+        <div class='item'>CULTURAL IDENTITY&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•</div>
+        <div class='item'>HOLISTIC&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•</div>
+        <div class='item'>COMMUNITY&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•</div>
+        <div class='item'>REGENERATION&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•</div>
+        <div class='item'>EMPOWERMENT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•</div>
+
+    </div>
+    <div class='fade'></div>
 </div>
 
-</div>
+
+    
+
+
+
+  <script src="//superlap.world/cdn/shop/t/7/assets/scrolling-items.js?v=21475352383114223391709303638" type="module"></script>
+
+
+
+
+
+
 
 <div class="div" style="margin-left:0px;width:100%;height:100vh;animation: 1s ease-out 0s 1 slideInFromRight;">
+    <div style="height:32vw;border-bottom-color: rgb(0, 0, 0);
+border-bottom-style: solid;
+border-bottom-width: 1px;overflow:hidden">
 <video class="video" src="https://www.shutterstock.com/shutterstock/videos/1097394499/preview/stock-footage-establishing-aerial-view-shot-of-london-uk-united-kingdom-lewisham-peckham-camberwell.mp4" playsinline muted="" autoplay="" loop="" poster="source images/30+fps.gif"></video>
-    
-        <h1 class="h1" style="padding-left:20px;">
-          Wellbeing. Cultural identity. Community.
-        </h1>
-    
-    
-        <p class="p">
-          We foster well being and amplify cultural identity within urban communities. As a collective of architects and creative professionals, we craft spaces which purposefully address specific urban issues. Our holistic community oriented approach prioritises environmental regeneration at the forefront of the design, empowering individuals to actively shape our cities.
-        </p>
-              
+    </div>
 
-<img class="img" src="source images/327a62d2-1338-43f1-8a94-47a957d1b857.jpeg" style="width:50vw;margin-left:25vw;">
+
+  <div class="px-section-horizontal-spacing py-section-vertical-spacing" STYLE="border-bottom-color: rgb(0, 0, 0);
+border-bottom-style: solid;
+border-bottom-width: 1px;overflow:hidden">
+    <div class="flex  text-left justify-start">
+      <div class="w-full lg:w-full">
+        <div class="rte rte font-body text-scale-n0 lg:text-scale-n6 rte font-body break-word">
+          <h4 style="padding-left:9px;padding-top:18px;padding-bottom:18px;padding-right:9px;margin:0;font-family: Helvetica;font-size: 22.5px;font-weight:400;color: black"><em>We foster well being and amplify cultural identity within urban communities.</em></h4>
+        </div></div>
+    </div>
+  </div>
+
+<div id="shopify-section-template--22147865641278__feature-text" class="shopify-section" style="border-bottom-color: rgb(0, 0, 0);
+border-bottom-style: solid;
+border-bottom-width: 1px;overflow:hidden"><section class="overflow-hidden border-b-gridline border-gridline-color bg-scheme-background text-scheme-text" data-color-scheme="scheme1" style="">
+
+  <div class="px-section-horizontal-spacing py-section-vertical-spacing" style="padding-left:9px;padding-top:18px;padding-bottom:18px;padding-right:9px;margin:0;font-family: Helvetica;font-size: 22.5px;font-weight:400;color:black">
+    <div class="flex  text-left justify-start">
+      <div class="w-full lg:w-full">
+        <div class="rte font-heading text-scale-n0 lg:text-scale-n4 font-heading break-word">
+          <h1 style="margin:0;font-size: 35.154px;
+font-style: normal;
+font-variation-settings: normal;
+font-weight: 400;color:black;            ">REVIVAL COLLECTIVE is a collective of architects and creative professionals located at Eldon Building in Southsea.   ———&gt; <br><br><a class="hovermeeeeee"href="about.html" title="ABOUT">LEARN MORE ABOUT REVIVAL COLLECTIVE.</a></h1>
+        </div></div>
+    </div>
+  </div>
+</section>
+
 
 </div>
+    <div style="background-color: orange">    <image src="source images/327a62d2-1338-43f1-8a94-47a957d1b857.jpeg" style="margin: 12.5vw;width:75vw;opacity: 1"></image></div>
+</div>
 
+              
+
+</div>
 
 
 <! -- tag before the code and a -->
 <link rel="stylesheet" type="text/css" href="footer.css">
 
 
-<div style="    translate: -0 -4em;">
+<div style="    translate: -0 -0em;background-color: orange;">
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="0"><defs><symbol viewBox="0 0 24 24" id="alert"class="FKYOU" >
   <g fill="none" transform="translate(3 3)">
     <circle cx="9" cy="9" r="12" fill="#B20003"></circle>
