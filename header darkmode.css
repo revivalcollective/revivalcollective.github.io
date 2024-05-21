@@ -1,18 +1,16 @@
-.navbarrrrrrrrrr {
-border-bottom-color:rgb(0, 0, 0);
+.navbarrrrrrrrrr {border-bottom-color:#dfeaea;
 }
 
 .headeryyyyyyyy {
-border-bottom-color:rgb(0, 0, 0);
+border-bottom-color:#dfeaea;
 }
-
 * {
 	transition: all 0.2s;
 }
 
 * {max-width:100vw;}
 .headerimageeee:hover {
-filter: saturate(0) brightness(0);
+filter: brightness(0) invert(1);
 }
 a {
 }
@@ -33,20 +31,20 @@ a {
 
     word-break: normal;
     overflow-wrap: anywhere;
-            border-bottom-color: rgb(229, 231, 235);
+            border-bottom-color: #dfeaea;
 border-bottom-style: solid;
 border-bottom-width: 0px;
-border-left-color: rgb(229, 231, 235);
+border-left-color: #dfeaea;
 border-left-style: solid;
 border-left-width: 0px;
-border-right-color: rgb(229, 231, 235);
+border-right-color: #dfeaea;
 border-right-style: solid;
 border-right-width: 0px;
-border-top-color: rgb(229, 231, 235);
+border-top-color: #dfeaea;
 border-top-style: solid;
 border-top-width: 0px;
 box-sizing: border-box;
-color: rgb(0, 0, 0);
+color: #dfeaea;
 cursor: pointer;
 display: inline;
 font-family: "Helvetica", serif;
