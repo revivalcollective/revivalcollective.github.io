@@ -4,6 +4,8 @@ border-bottom-color:rgb(0, 0, 0);
 
 .headeryyyyyyyy {
 border-bottom-color:rgb(0, 0, 0);
+    padding-top:10px;width:100%;text-align: center;border-bottom-style: solid;border-bottom-width: 1px;position: sticky;top:0;z-index: 9999;
+    height: 100px;
 }
 
 * {
@@ -11,6 +13,12 @@ border-bottom-color:rgb(0, 0, 0);
 }
 
 * {max-width:100vw;}
+
+.headerimageeee{
+    height: 100%;
+    padding-left: 47px
+}
+
 .headerimageeee:hover {
 filter: saturate(0) brightness(0);
 }
